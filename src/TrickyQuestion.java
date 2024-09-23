@@ -17,7 +17,7 @@ public class TrickyQuestion {
         long longWithL = 1000*60*60*24*365L;
         long longWithoutL = 1000*60*60*34*365;
         System.out.println("Correct Result "+longWithL);  //It explicitly defined that we need long As '365L' ,i.e it will return correct output in LONG.
-        System.out.println("Incorrect Result "+longWithoutL); //but in this case we don't defined any return type ,that's why is will be automatically calculated in INTEGER
+        System.out.println("Incorrect Result "+longWithoutL); //but in this case we don't defined any return type ,that's whygit is will be automatically calculated in INTEGER
         //For that Integer Overflow Occur's
 
 //Before Initialized variable we can't use it further like string ,array
