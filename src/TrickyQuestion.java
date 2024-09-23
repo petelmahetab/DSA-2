@@ -3,10 +3,10 @@ public class TrickyQuestion {
     public  int $;
 
     public static void main(String[] args) {
-        String str="hello";
-        System.out.println(str);
-        TrickyQuestion trickyQuestion=new TrickyQuestion();
-        System.out.println(trickyQuestion.$);
+//        String str="hello";
+//        System.out.println(str);
+//        TrickyQuestion trickyQuestion=new TrickyQuestion();
+//        System.out.println(trickyQuestion.$);
 //        //It executes automatically without Error $ And _ is allowed
         //In get the deflaut values of given datatype int-0,float-0.0,chr-.,byte-0.. so on..
 
