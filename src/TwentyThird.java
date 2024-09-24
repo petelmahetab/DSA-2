@@ -18,6 +18,12 @@ public class TwentyThird {
 
         double result=1;
         long binaryForm=n1;
+        // Power negative
+        if(n1 < 0){
+            a=1/a;
+            //Making negative to positive
+            binaryForm=-binaryForm;
+        }
         while (binaryForm > 0){
 
             if(binaryForm%2==1){
