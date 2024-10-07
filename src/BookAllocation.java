@@ -5,6 +5,7 @@ public class BookAllocation {
             return -1;
         }
 
+//        Maximum sum FIND out
         int sr = a[0]; // Starting with the maximum element
         int sum = 0;
         for (int i = 0; i < n; i++) {
